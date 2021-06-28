@@ -4,19 +4,21 @@
       <meta charset = "utf-8"> 
       <title>Idle Game v1</title> 
       
-      <script>
-    function myFunction() {
-      let n = 0
-      <button id="getGold" type="button" button.onclick=n ++;>Earn Gold!</button>
-      document.getElementById("currentGold").innerHTML = n;
       
-         }
-      </script>
    </head> 
-<body onload="myFunction()">
+<body>
   <h1 id="header">Idle Game v1</h1>
    
+   <script>
+      function getGold(){
+      let n = 0
+      document.getElementById("currentGold").innerHTML = n;
+         }
+      </script>
+   
    <h2>Current Gold: <span id="currentGold"></span></h2>
+   
+   <button type="button" button.onclick=getGold(n++)>Earn Gold!</button>
 
    
    
