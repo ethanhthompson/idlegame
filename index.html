@@ -8,6 +8,7 @@
     function myFunction() {
       let n = 0
       let gold = n
+      button.onclick=function(){gold ++;}
       document.getElementById("myText").innerHTML = gold;
          }
       </script>
@@ -18,7 +19,7 @@
    <h2>Current Gold: <span id="myText"></span></h2>
 
    
-   <button style="background-color: gold;" type="button" onclick=myFunction(n++)>
+   <button style="background-color: gold;" type="button">
    Earn Gold!
    </button>
 
