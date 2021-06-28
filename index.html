@@ -7,18 +7,18 @@
       <script>
     function myFunction() {
       let n = 0
-      button.onclick=function(){n++;}
-      document.getElementById("myText").innerHTML = n;
+      
+      document.getElementById("currentGold").innerHTML = "n";
          }
       </script>
    </head> 
 <body onload="myFunction()">
   <h1 id="header">Idle Game v1</h1>
    
-   <h2>Current Gold: <span id="myText"></span></h2>
+   <h2>Current Gold: <span id="currentGold"></span></h2>
 
    
-   <button type="button">
+   <button type="button" button.onclick="myFunction(){n ++;}">
    Earn Gold!
    </button>
 
